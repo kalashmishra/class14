@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    
+}
+#nav{
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    height: 10%;
+
+    margin-top: 30px;
+    
+}
+#nav h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+#text1 h1{
+    font-weight: 900;
+    font-family: "Montserrat";
+    display: flex;
+    
+}
+
+
+#text1 #circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+   border: 2px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+   
+   font-size: 13px;
+   font-weight: 600;
+
+   
+}
+
+
+
+#text1 h6{
+    line-height: 0;
+    white-space: nowrap;
+    padding-left: 50%;
+    font-weight: 300;
+}
+#nav #nav1{
+    position: absolute;
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+    left: 0;
+    width: 35%;
+    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 2px solid black;
+}
+#nav #nav2{
+position: absolute;
+display: flex;
+align-items: center;
+left: 35%;
+padding-left: 6%;
+    width: 20%;
+    height: 100%;
+    
+    border: 2px solid black;
+}
+#nav2 h3{
+   
+}
+#nav #nav3{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 55%;
+    padding-left: 10%;
+    width: 35%;
+    height: 100%;
+    
+    border: 2px solid black;
+}
+#nav #nav4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 90%;
+    padding-left: 5%;
+    width: 10%;
+    height: 100%;
+
+    font-size: 25px;
+
+    border: 2px solid black;
+}
+#image1 img{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 75%;
+    object-fit: cover;
+    object-position: 0px -200px;
+
+    
+    
+}
+#image1 #text10{
+    position: absolute;
+top: 70%;
+left: 15%;
+width: 60%;
+z-index: 99;
+color: #fff;
+
+
+    
+}
+#text10 h1{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+
+}
+
+
+#box{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    height: 20%;
+    
+    display: flex;
+    
+}
+#text3{
+    
+
+}
+.ecllip {
+    width: 10%;
+    height: 60%;
+    
+    border-radius: 50%;
+    margin: 25px;
+    overflow: hidden;
+   
+}
+.ecllip img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background-size: cover;
+    
+    
+}
+#alphabat{
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    margin-top: 40px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+   font-style: italic;
+   font-weight: 400;
+
+    
+
+    
+}
+#alp1{
+    text-decoration: underline;
+    padding-right: 20px;
+   }
+#apl1 h2{
+    font-weight: 200;
+
+
+}
+
+#alphabat  a{
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    opacity: 9;
+   }
+   #circle2{
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+   border: 2px solid black;
+   padding: 2px;
+}
+#alphabat a:nth-child(9){
+    opacity: .5;
+    }
+    #alphabat a:nth-child(11){
+        opacity: .5;
+        }
+        #alphabat a:nth-child(15){
+            opacity: .5;
+            }
+            #alphabat a:nth-child(18){
+                opacity: .5;
+                }
+                #alphabat a:nth-child(22){
+                    opacity: .5;
+                    }
+                    #image2{
+                        position: absolute;
+                        top: 145%;
+                        left: 0%;
+                        width: 80%;
+                        height:90%;
+                        margin-left: 10%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    #left{
+                        margin-left: 60px;
+                        width: 45%;
+                        height: 100%;
+                        
+                    }
+                    #left h1{
+                        font-size: 40px;
+                        font-weight: 900;
+                        font-family: Montserrat;
+                    }
+                    #image2 #right{
+                        margin-right: 60px;
+                        width: 35%;
+                        height: 100%;
+                        position: relative;
+                        
+                    }
+
+                    #left img{
+                        width: 100%;
+                        height: 90%;
+                        object-fit: cover;
+                    }
+                    #right img{
+                        width: 100%;
+                        height: 70%;
+                        object-fit: cover;
+                        object-position: 0 -5px;
+                    }
+                    #right #text4{
+                        width: 100%;
+                        height: 30%;
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        display: flex;
+                        justify-content: space-between;
+                        text-align: left;
+                    
+                    }
+                    #text5{
+                        margin-right: 10px;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    #text6{
+                        margin-left: 10px;
+                        font-size: 15px;
+                    }
+                    #image3{
+                        position: absolute;
+                        top: 240%;
+                        left: 0%;
+                        
+                        width: 80%;
+                        height: 80%;
+                        margin-left: 10%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    #left1{
+                        margin-left: 60px;
+                        width: 35%;
+                        height: 100%;
+                        position: relative;
+                        
+
+                        
+                    }
+                    #circle3{
+                        position: absolute;
+                        top: 40%;
+                        left: 50%;
+                        transform: translate(-50%,-40%);
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        border: 2px solid black;
+
+                    }
+                    #text7{
+                        position: absolute;
+                        bottom: 0%;
+                        left: 0%;
+                        font-size: 25px;
+                        font-weight: 600;
+                    }
+                    #right2{
+                        margin-right: 60px;
+                        width: 45%;
+                        height: 100%;
+                        
+                    }
+                    #right2 img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        
+                    }
+                    #image4{
+                        position: absolute;
+                        top: 330%;
+                        left: 0%;
+                        width: 100%;
+                        height: 70%;
+                        
+                        
+                        
+                    }
+                    #image4 img{
+                        object-fit: cover;
+                        object-position: 0 -20px;
+                        width: 80%;
+                        height: 100%;
+                    margin-left:10%;
+                    }
+                    #update{
+                        position: absolute;
+                        top: 405%;
+                        left: 0;
+                        width: 100%;
+                        height: 20%;
+                    
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    #update h1{
+                        font-size: 60px;
+                        font-weight: 900;
+                        font-family: MOntserrat;
+
+                    }
+                    #row{
+                        position: absolute;
+                        top: 410%;
+                        left: 0;
+                        width: 80%;
+                        height: 40%;
+                        
+                        margin-left: 10%;
+                        position: relative;
+                       
+                      
+                    }
+                   .colum{
+                    position: absolute;
+                        width: 100%;
+                        height: 40%;
+                        
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        position: relative;
+                        
+                        
+                    border-top: 3px solid black;
+                    border-bottom: 1px solid black;
+                    }
+                    .image {
+                        width: 8%;
+                        height: 60%;
+                        
+                        border-radius: 50%;
+                        
+                        overflow: hidden;
+                        background-color: aqua;
+                       
+                    }
+                    .image img{
+                        width: 100%;
+                        object-fit: cover;
+                        height: 100%;
+                        background-size: cover;
+
+                        
+                        
+                    }
+                    #text8{
+                        width: 8%;
+                        height: 60%;
+                        
+                       
+
+                    }
+                    #text8 h1{
+                        font-weight: 500;
+                    }
+                    #text8 h5{
+                        font-weight: 500;
+                    }
+                    
+                    .text{
+                padding-left: 5%;
+                    }
+                    .text h5{
+                        font-weight: 500;
+                    }
+                    
+                    .heading{
+                        width: 40%;
+                        
+                        padding-right: 25%;
+                       
+                       
+                        
+                    }
+                    .heading h1{
+                        font-weight: 500;
+                        text-align-last: justify;
+                        word-spacing: 0px;
+                        white-space: nowrap;
+                        
+                    }
+                    #image5{
+                        position: absolute;
+                        top: 500%;
+                        left: 0%;
+                        width: 90%;
+                        height: 70%;
+                        margin-left: 10%;
+                        display: flex;
+                        justify-content: space-between;
+                       
+    
+                    }
+                    #image5 #left{
+                        margin-left: 70px;
+                        width: 35%;
+                        height: 100%;
+                       
+
+                    }
+                    #image5 #left img{
+                        object-fit: cover;
+                        height: 100%;
+                        
+                    }
+                    #image5 #right{
+                        margin-right: 70px;
+                        width: 45%;
+                        height: 100%;
+                        position: relative;
+                       
+
+                    }
+                     #text9 h1{
+                        font-weight: 900;
+                        margin-bottom: 20px;
+                        letter-spacing: 2px;
+                    }
+                    #text9 h5{
+                         width: 35%;
+                        font-weight: 500;
+                        margin-bottom: 20px;
+                        font-size: 25px;
+                        
+                    }
+                    #text9 h6{
+                        font-weight: 400;
+                        margin-bottom: 35px;
+                        font-size: 15px;
+
+                        
+                    }
+                    #img{
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 50%;
+                        
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    #img1{
+                        width: 50%;
+                        height: 100%;
+                        
+                        background-image: url(https://images.squarespace-cdn.com/content/v1/5a00862ca9db098723766900/1560184417539-V3ZZFSWXJSWHW1H7N2BF/5.1+Richie+Shazam+Print_LEN_1263-2.jpg?format=500w);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    #img2{
+                        width: 47%;
+                        height: 100%;
+                        
+                        background-image: url(https://images.squarespace-cdn.com/content/5dbe0ad1270af32a3472575f/1578618613195-QKG9Q9J6W36YXRBD28VY/wes+period.jpg?content-type=image%2Fjpeg);
+                        background-size: cover;
+                        background-position: center;
+                    }
+ #image6{
+    position: absolute;
+    top: 580%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    
+ }
+ #image6 img{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    object-fit: cover;
+    object-position: 0 -10px;
+    
+ }
+ #image7{
+    position: absolute;
+    top: 660%;
+    left: 0%;
+    width: 80%;
+    height:80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    margin-left: 60px;
+    width: 45%;
+    height: 100%;
+    
+}
+
+
+#image7 #right{
+    margin-right: 60px;
+    width: 35%;
+    height: 100%;
+    position: relative;
+    
+}
+
+#left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#right img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: 0 -5px;
+}
+#right #text4{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 30px;
+
+}
+#text5{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#text6{
+    margin-left: 10px;
+    font-size: 15px;
+}
+#last2{
+    position: absolute;
+    top: 750%;
+    left: 0%;
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#last2 #blog{
+    width: 25%;
+    height: 100%;
+    
+    
+}
+#blog h1{
+    padding: 60px;
+    font-weight: 900;
+    font-size: 50px;
+}
+#last2 #text{
+    width: 40%;
+    height: 100%;
+    
+    position: relative;
+}
+#text p{
+    padding: 20px;
+    font-size: 20px;
+}
+#text #img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 60%;
+    padding-left: 5%;
+
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -5px;
+}
+#last2 #text2{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    
+}
+#text2 p{
+    padding: 20px;
+    font-size: 20px;
+}
+#text2 #img5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    height: 60%;
+    padding-left: 5%;
+    
+}
+ #text2 #img5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 -200px;
+    
+}
+#footer{
+    position: relative;
+    position: absolute;
+    top: 815%;
+    left: 0;
+    display: flex;
+    
+
+    width: 100%;
+    height: 30%;
+
+    
+    
+}
+#footer h3{
+    font-weight: 600;
+    font-size: 18px;
+}
+#text1 h1{
+    font-weight: 900;
+    font-family: "Montserrat";
+    display: flex;
+    
+}
+
+
+#text1 #circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+   border: 2px solid black;
+display: flex;
+align-items: center;
+justify-content: center;
+   
+   font-size: 13px;
+   font-weight: 600;
+
+   
+}
+
+
+
+#text1 h6{
+    line-height: 0;
+    white-space: nowrap;
+    padding-left: 50%;
+    font-weight: 300;
+}
+#footer #foo1{
+    position: absolute;
+    display: flex;
+align-items: center;
+    justify-content: space-between;
+    left: 0;
+    width: 37%;
+    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 2px solid black;
+}
+#footer #foo2{
+position: absolute;
+display: flex;
+align-items: center;
+left: 37%;
+padding-left: 6%;
+    width: 23%;
+    height: 100%;
+    
+    border: 2px solid black;
+}
+
+#footer #foo3{
+    position: absolute;
+    display: flex;
+    
+    left: 60%;
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 40%;
+    height: 100%;
+    
+    border: 2px solid black;
+}
+#foo3 #part{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+padding-left: 8%;
+    border-top: 2px solid black;
+}
+#address h6{
+    font-size: 12px;
+    font-weight: 500;
+}
+#icon{
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+
+
+
+                    
+                   
+
+
+                
